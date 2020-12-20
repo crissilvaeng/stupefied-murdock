@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "**/.git": true
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Bluloco Light",
+    "editor.fontFamily": "Fira Code Retina",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "300"
+}
