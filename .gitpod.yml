@@ -1,11 +1,11 @@
 image:
-  file: gitpod/.gitpod.dockerfile
+  file: .gitpod/Dockerfile
 
 tasks:
   - name: FiraCode
-    init: gitpod/firacode/init.sh
+    init: .gitpod/firacode/init.sh
   - name: Git
-    init: gitpod/git/init.sh
+    init: .gitpod/git/init.sh
 
 vscode:
   extensions:
