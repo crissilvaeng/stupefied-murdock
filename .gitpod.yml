@@ -4,6 +4,8 @@ image:
 tasks:
   - name: FiraCode
     init: gitpod/firacode/init.sh
+  - name: Git
+    init: gitpod/git/init.sh
 
 vscode:
   extensions:
