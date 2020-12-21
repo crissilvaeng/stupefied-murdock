@@ -7,9 +7,8 @@ tasks:
   - name: Git
     command: .gitpod/git/command.sh
   - name: IEx
-    openIn: main
-    openMode: split-right
     command: iex
+  - command: gp open main.exs
 
 vscode:
   extensions:
