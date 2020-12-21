@@ -7,13 +7,29 @@
             "label": "IEx",
             "type": "shell",
             "command": "iex",
+            "presentation": {
+                "reveal": "always",
+                "echo": true,
+                "focus": true,
+                "panel": "dedicated",
+                "showReuseMessage": true,
+                "clear": true
+            },
             "problemMatcher": []
         },
         {
-            "label": "Git",
+            "label": "Snapshot",
             "type": "shell",
-            "command": "git snapshot",
-            "isBackground": true
+            "command": "git",
+            "args": [
+                "snapshot"
+            ],
+            "presentation": {
+                "reveal": "never",
+                "panel": "dedicated",
+                "showReuseMessage": true
+            },
+            "problemMatcher": []
         }
     ]
 }
