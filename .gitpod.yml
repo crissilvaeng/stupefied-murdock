@@ -8,7 +8,6 @@ tasks:
     command: .gitpod/git/command.sh
   - name: IEx
     command: iex
-  - command: gp open main.exs
 
 vscode:
   extensions:

@@ -9,6 +9,17 @@
 
 This project is a development sandbox for my Elixir journey. Nothing else.
 
+## Usage
+
+> Gitpod uses Theia as its default IDE. This setting allows you to choose between Theia and Code editors.
+> 
+> You can choose between 2 options:
+> 
+> - Theia
+> - Code
+
+Source: https://www.gitpod.io/docs/feature-preview/
+
 ## License
 
 The MIT License (MIT). To see the details of this license, see the [license file](LICENSE.md).

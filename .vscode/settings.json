@@ -15,7 +15,8 @@
         120
     ],
     "files.exclude": {
-        "**/.git": true
+        "**/.git": true,
+        "**/.elixir_ls": true
     },
     "workbench.colorTheme": "Bluloco Light",
     "workbench.editor.highlightModifiedTabs": true,
