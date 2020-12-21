@@ -6,6 +6,9 @@ tasks:
     init: .gitpod/firacode/init.sh
   - name: Git
     init: .gitpod/git/init.sh
+  - name: IEx
+    command: iex
+    openIn: right
 
 vscode:
   extensions:
